@@ -1,0 +1,36 @@
+a) cd Test/
+   
+b) cd Altschool/Test
+
+c) cd misc/
+   echo "Hello A" >FileA.txt
+
+d) Touch FileB.txt
+
+e) Touch FileC.txt
+   cp FileA.txt FileC.txt
+
+f) Touch FileD
+   Echo "How are you doing" >FileB.txt
+   mv FileB.txt FileD.txt
+
+g) tar -cvf misc.tar misc
+   
+h) tar -zcvf misc.tar.gz misc
+
+I) sudo useradd -m Anee
+   sudo /etc/passwd Anee
+
+j) sudo /etc/passwd -l Anee
+   
+k) sudo useradd -d /user/kufre Kufre
+
+L) sudo Vim /etc/passwd 
+   i
+   vim /etc/ssh/sshd_config
+   password authentication no
+   wq!
+    
+m) Sudo Vim /etc/passwd 
+   Anee:****:2048:Hello There:/User:/bin/bash
+   Anee:****:2048:Hello There:/User:/sbin/nologin
